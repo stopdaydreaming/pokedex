@@ -1,0 +1,7 @@
+*,
+*::before,
+*::after{box-sizing:border-box;}
+
+.pokemon-card {
+    border: solid 1px darkblue;
+}
