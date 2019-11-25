@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Raleway&display=swap');
+
+:root {
+  --primary-font: 'Acme', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #efefbb;
+  background: -webkit-linear-gradient(to right, #94bbe9, #eeaeca);
+	background: linear-gradient(to right, #94bbe9, #eeaeca);
+}
+
+h1, h2, h3, h4 {
+ font-family: var(--primary-font);
+ letter-spacing: 2px; 
+}
+p{
+  font-family: var(--secondary-font);
+}

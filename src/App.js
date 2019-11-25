@@ -3,9 +3,13 @@ import PokemonList from './components/pokemon-list/PokemonList'
 import Pagination from './components/pagination/Pagination'
 import axios from 'axios'
 
+import './App.scss'
+
 function App() {
+  const pokeUrl = `https://pokeapi.co/api/v2/pokemon`
+  
   const [ pokemon, setPokemon ] = useState([])
-  const [ currentPageUrl, setCurrentPageUrl ] = useState("https://pokeapi.co/api/v2/pokemon")
+  const [ currentPageUrl, setCurrentPageUrl ] = useState([pokeUrl])
   const [ nextPageUrl, setNextPageUrl ] = useState()
   const [ prevPageUrl, setPrevPageUrl ] = useState()
   const [ loading, setLoading ] = useState(true)
