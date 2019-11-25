@@ -18,12 +18,15 @@ body {
   justify-content: center;
   background: #efefbb;
   background: -webkit-linear-gradient(to right, #94bbe9, #eeaeca);
-	background: linear-gradient(to right, #94bbe9, #eeaeca);
+  background: linear-gradient(to right, #94bbe9, #eeaeca);
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
- font-family: var(--primary-font);
- letter-spacing: 2px; 
+  display: flex;
+  align-items: center;
+  font-family: var(--primary-font);
+  letter-spacing: 2px; 
 }
 p{
   font-family: var(--secondary-font);

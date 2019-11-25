@@ -1,8 +1,5 @@
-.pokemon-list{}
-
 .pokemon {
     font-family: var(--secondary-font);
-    border: solid 1px darkblue;
 }
 .pokemon-list {
     display: flex;
@@ -10,5 +7,16 @@
     align-items: space-between;
     justify-content: center;
     margin: auto 0;
-    max-width: 1000px;
+    max-width: 85vw;
+}
+.pokemon-item {
+    border: solid 1px darkblue;
+    margin: 15px;
+    padding: 30px;
+    height: 85px; 
+}
+.pokemon-item:hover {
+    background-color: black;
+    color: white;
+    transition: transform 0.25s ease-in-out;
 }

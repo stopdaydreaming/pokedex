@@ -4,8 +4,8 @@ import './Pagination.scss'
 const Pagination = ({ gotoNextPage, gotoPrevPage}) => {
     return (
         <div>
-            {gotoPrevPage && <button className="page-btn" onClick={gotoPrevPage}><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>}
-            {gotoNextPage && <button className="page-btn" onClick={gotoNextPage}><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>}
+            {gotoPrevPage && <button className="page-btn" onClick={gotoPrevPage}><i className="fa fa-angle-double-left" aria-hidden="true"></i></button>}
+            {gotoNextPage && <button className="page-btn" onClick={gotoNextPage}><i className="fa fa-angle-double-right" aria-hidden="true"></i></button>}
         </div>
     )
 }
